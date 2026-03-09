@@ -13,7 +13,7 @@ This project demonstrates how a simple web application can be packaged into a de
 
 ## Screenshot
 
-<img width="723" height="406" alt="Calculator Screenshot" src="https://github.com/user-attachments/assets/2c04223d-2cce-4584-ba2c-5a5540e05da5" />
+<img width="482" height="271" alt="Calculator Screenshot" src="https://github.com/user-attachments/assets/2c04223d-2cce-4584-ba2c-5a5540e05da5" />
 
 
 ---
