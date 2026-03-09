@@ -75,8 +75,8 @@ calculator-app
 Clone the repository:
 
 ```
-git clone https://github.com/yourusername/calculator-app.git
-cd calculator-app
+git clone https://github.com/faishalkc/Calculator-App.git
+cd Calculator-App
 ```
 
 Install dependencies:
@@ -122,7 +122,7 @@ dist/
 
 You can download the latest compiled version from the **Releases** page:
 
-https://github.com/yourusername/calculator-app/releases
+https://github.com/faishalkc/Calculator-App/releases
 
 After downloading:
 
