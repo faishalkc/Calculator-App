@@ -120,9 +120,7 @@ dist/
 
 ## Download Release
 
-You can download the latest compiled version from the **Releases** page:
-
-https://github.com/faishalkc/Calculator-App/releases
+You can download the latest compiled version from the <a href="https://github.com/faishalkc/Calculator-App/releases">**Releases**</a> page:
 
 After downloading:
 
