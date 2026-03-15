@@ -119,7 +119,7 @@ You can download the latest compiled version from the <a href="https://github.co
 
 After downloading:
 
-1. Run the installer `Calculator Setup.exe`
+1. Run the installer `Calculator-App-x.x.x-Setup.exe`
 2. Follow the installation steps
 3. Launch **Calculator** from your system
 
