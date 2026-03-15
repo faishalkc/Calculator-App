@@ -26,8 +26,8 @@ if (!gotTheLock) {
 
     mainWindow = new BrowserWindow({
 
-      width: 320,
-      height: 470,
+      width: 380,
+      height: 560,
       useContentSize: true,
 
       resizable: false,
