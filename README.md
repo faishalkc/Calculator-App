@@ -5,11 +5,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
 ![License](https://img.shields.io/badge/License-ISC-green)
 
-A lightweight **desktop calculator application** built with **Electron**, using a web interface powered by **HTML, CSS, and JavaScript**.
-
-The user interface is styled using **Pico.css**, a minimal and semantic CSS framework, keeping the application clean and lightweight.
-
-This project demonstrates how a simple web application can be packaged into a **desktop application using Electron**.
+A lightweight **desktop calculator application** built with **Electron**, using a web interface powered by **HTML, CSS, and JavaScript**. The user interface is styled using **Pico.css**, a minimal and semantic CSS framework, keeping the application clean and lightweight. This project demonstrates how a simple web application can be packaged into a **desktop application using Electron**.
 
 ---
 
