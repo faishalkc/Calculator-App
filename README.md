@@ -7,7 +7,9 @@
 
 A lightweight **desktop calculator application** built with **Electron**, using a web interface powered by **HTML, CSS, and JavaScript**.
 
-This project demonstrates how a simple web application can be packaged into a desktop application using Electron.
+The user interface is styled using **Pico.css**, a minimal and semantic CSS framework, keeping the application clean and lightweight.
+
+This project demonstrates how a simple web application can be packaged into a **desktop application using Electron**.
 
 ---
 
@@ -15,19 +17,20 @@ This project demonstrates how a simple web application can be packaged into a de
 
 <img width="482" height="271" alt="Calculator Screenshot" src="https://github.com/user-attachments/assets/2c04223d-2cce-4584-ba2c-5a5540e05da5" />
 
-
 ---
 
 ## Features
 
 * Basic arithmetic operations
-* Desktop application built with Electron
+* Desktop application powered by Electron
 * Keyboard input support
+* Responsive calculator layout
+* Clean and lightweight interface
 * Single instance application
 * Navigation protection
 * Disabled external window creation
 * Zoom disabled for consistent UI
-* Clean and lightweight interface
+* Dark mode support (system preference)
 
 ---
 
@@ -37,7 +40,7 @@ This project demonstrates how a simple web application can be packaged into a de
 * **HTML**
 * **CSS**
 * **JavaScript**
-* **Bootstrap**
+* **Pico.css**
 
 ---
 
@@ -51,18 +54,14 @@ calculator-app
 │
 ├─ app
 │   ├─ index.html
-│   ├─ style.css
-│   ├─ app.js
 │   ├─ favicon.ico
 │   │
 │   ├─ css
-│   │   └─ bootstrap.min.css
+│   │   ├─ pico.min.css
+│   │   └─ style.css
 │   │
-│   ├─ js
-│   │   └─ bootstrap.bundle.min.js
-│   │
-│   └─ assets
-│       └─ screenshot.png
+│   └─ js
+│       └─ calculator.js
 │
 ├─ node_modules
 └─ dist
