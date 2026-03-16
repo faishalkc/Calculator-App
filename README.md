@@ -5,7 +5,9 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
 ![License](https://img.shields.io/badge/License-ISC-green)
 
-A lightweight **desktop calculator application** built with **Electron**, using a web interface powered by **HTML, CSS, and JavaScript**. The user interface is styled using **Pico.css**, a minimal and semantic CSS framework, keeping the application clean and lightweight. This project demonstrates how a simple web application can be packaged into a **desktop application using Electron**.
+A lightweight **desktop calculator application** built with **Electron**, using a web interface powered by **HTML, CSS, and JavaScript**.
+
+The user interface is styled using **Pico.css**, a minimal and semantic CSS framework, keeping the application clean and lightweight. This project demonstrates how a simple web application can be packaged into a **desktop application using Electron**.
 
 ---
 
@@ -119,7 +121,7 @@ You can download the latest compiled version from the <a href="https://github.co
 
 After downloading:
 
-1. Run the installer `Calculator Setup.exe`
+1. Run the installer `Calculator-App-x.x.x-Setup.exe`
 2. Follow the installation steps
 3. Launch **Calculator** from your system
 
