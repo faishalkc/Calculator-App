@@ -1,6 +1,6 @@
 {
   "name": "calculator-app",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Simple Calculator Desktop App built with Electron",
   "main": "main.js",
   "type": "commonjs",
