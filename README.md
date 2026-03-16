@@ -1,13 +1,16 @@
 # Calculator App
 
 ![Electron](https://img.shields.io/badge/Electron-Desktop_App-47848F?logo=electron)
-![Node.js](https://img.shields.io/badge/Node.js-JavaScript_Runtime-339933?logo=node.js)
-![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![Flutter](https://img.shields.io/badge/Flutter-Mobile_App-02569B?logo=flutter)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Android-blue)
 ![License](https://img.shields.io/badge/License-ISC-green)
 
-A lightweight **desktop calculator application** built with **Electron**, using a web interface powered by **HTML, CSS, and JavaScript**.
+A lightweight **cross-platform calculator application** built using a shared **web-based interface (HTML, CSS, JavaScript)**, packaged into:
 
-The user interface is styled using **Pico.css**, a minimal and semantic CSS framework, keeping the application clean and lightweight. This project demonstrates how a simple web application can be packaged into a **desktop application using Electron**.
+* 🖥 **Desktop App** using **Electron**
+* 📱 **Mobile App** using **Flutter WebView**
+
+The user interface is styled using **Pico.css**, a minimal and semantic CSS framework, ensuring a clean, consistent, and lightweight experience across platforms.
 
 ---
 
@@ -20,25 +23,50 @@ The user interface is styled using **Pico.css**, a minimal and semantic CSS fram
 ## Features
 
 * Basic arithmetic operations
-* Desktop application powered by Electron
-* Keyboard input support
+* Cross-platform support (Desktop & Android)
+* Shared web-based UI (single logic across platforms)
+* Keyboard input support (desktop)
 * Responsive calculator layout
 * Clean and lightweight interface
+* Native-like experience on mobile (WebView + haptic feedback)
+* Dark mode support (system preference)
+
+### Desktop (Electron)
+
 * Single instance application
 * Navigation protection
 * Disabled external window creation
 * Zoom disabled for consistent UI
-* Dark mode support (system preference)
+* Secure Electron configuration
+
+### Mobile (Flutter)
+
+* WebView-based rendering
+* Native haptic feedback integration
+* Orientation locked to portrait
+* Edge-to-edge UI
+* System-aware status bar & navigation bar
 
 ---
 
 ## Tech Stack
 
-* **Electron**
+### Core
+
 * **HTML**
 * **CSS**
 * **JavaScript**
 * **Pico.css**
+
+### Desktop
+
+* **Electron**
+* **Node.js**
+
+### Mobile
+
+* **Flutter**
+* **WebView**
 
 ---
 
@@ -47,22 +75,18 @@ The user interface is styled using **Pico.css**, a minimal and semantic CSS fram
 ```
 calculator-app
 │
-├─ main.js
-├─ package.json
+├─ desktop/                # Electron (Desktop wrapper)
+│   ├─ main.js
+│   ├─ package.json
+│   └─ app/                # Web UI (HTML, CSS, JS)
 │
-├─ app
-│   ├─ index.html
-│   ├─ favicon.ico
+├─ mobile/                 # Flutter (Mobile wrapper)
+│   ├─ lib/
+│   │   └─ main.dart       
 │   │
-│   ├─ css
-│   │   ├─ pico.min.css
-│   │   └─ style.css
-│   │
-│   └─ js
-│       └─ calculator.js
+│   └─ app/                # Web UI (HTML, CSS, JS)
 │
-├─ node_modules
-└─ dist
+└─ README.md
 ```
 
 ---
@@ -76,68 +100,71 @@ git clone https://github.com/faishalkc/Calculator-App.git
 cd Calculator-App
 ```
 
-Install dependencies:
+---
+
+## Run Desktop App (Electron)
 
 ```
+cd desktop
 npm install
-```
-
-Run the application:
-
-```
 npm start
 ```
 
 ---
 
-## Build Executable
+## Run Mobile App (Flutter)
 
-To build the application executable:
+```
+cd mobile
+flutter pub get
+flutter run
+```
+
+---
+
+## Build
+
+### Desktop (Electron)
 
 ```
 npm run build
 ```
 
-Build results will appear in:
+Output:
 
 ```
-dist/
+desktop/dist/
 ```
 
-Example:
+---
+
+### Mobile (Flutter)
 
 ```
-dist/
-├─ Calculator Setup.exe
-└─ win-unpacked/
-   └─ Calculator.exe
+flutter build apk --release
+```
+
+Output:
+
+```
+build/app/outputs/flutter-apk/
 ```
 
 ---
 
 ## Download Release
 
-You can download the latest compiled version from the <a href="https://github.com/faishalkc/Calculator-App/releases">**Releases**</a> page:
-
-After downloading:
-
-1. Run the installer `Calculator-App-x.x.x-Setup.exe`
-2. Follow the installation steps
-3. Launch **Calculator** from your system
+You can download compiled versions from the <a href="https://github.com/faishalkc/Calculator-App/releases">**Releases**</a> page.
 
 ---
 
-## Security Configuration
-
-This application applies several Electron security best practices:
+## Security Configuration (Electron)
 
 * `contextIsolation: true`
 * `nodeIntegration: false`
-* Single instance lock
 * Navigation blocked
-* Redirect blocked
 * External window creation disabled
-* Zoom disabled for UI stability
+* Zoom disabled
 
 ---
 
