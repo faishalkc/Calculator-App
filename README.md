@@ -49,6 +49,22 @@ The user interface is styled using **Pico.css**, a minimal and semantic CSS fram
 
 ---
 
+## Security Configuration (Electron)
+
+* `contextIsolation: true`
+* `nodeIntegration: false`
+* Navigation blocked
+* External window creation disabled
+* Zoom disabled
+
+---
+
+## Download Release
+
+You can download compiled versions from the <a href="https://github.com/faishalkc/Calculator-App/releases">**Releases**</a> page.
+
+---
+
 ## Tech Stack
 
 ### Core
@@ -149,22 +165,6 @@ Output:
 ```
 build/app/outputs/flutter-apk/
 ```
-
----
-
-## Download Release
-
-You can download compiled versions from the <a href="https://github.com/faishalkc/Calculator-App/releases">**Releases**</a> page.
-
----
-
-## Security Configuration (Electron)
-
-* `contextIsolation: true`
-* `nodeIntegration: false`
-* Navigation blocked
-* External window creation disabled
-* Zoom disabled
 
 ---
 
