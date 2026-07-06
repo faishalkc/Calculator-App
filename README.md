@@ -5,7 +5,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Android-blue)
 ![License](https://img.shields.io/badge/License-ISC-green)
 
-A lightweight **cross-platform calculator application** built using a shared **web-based interface (HTML, CSS, JavaScript)**, packaged into:
+A lightweight **multi-platform calculator application** built using a shared **web-based interface (HTML, CSS, JavaScript)**, packaged into:
 
 * 🖥 **Desktop App** using **Electron**
 * 📱 **Mobile App** using **Flutter WebView**
