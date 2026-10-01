@@ -1,4 +1,4 @@
-# Calculator App
+# Calculator Multi-Platform
 
 ![Electron](https://img.shields.io/badge/Electron-Desktop_App-47848F?logo=electron)
 ![Flutter](https://img.shields.io/badge/Flutter-Mobile_App-02569B?logo=flutter)
