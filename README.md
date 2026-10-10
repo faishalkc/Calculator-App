@@ -1,6 +1,6 @@
 # Calculator App (Multi-Platform)
 
-![Electron](https://img.shields.io/badge/Electron-Desktop_App-47848F?logo=electron)
+![Electron](https://img.shields.io/badge/Electron-Desktop_App-47848F?logo=electron&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-Mobile_App-02569B?logo=flutter)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Android-blue)
 ![License](https://img.shields.io/badge/License-ISC-green)
