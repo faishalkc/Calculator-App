@@ -3,7 +3,7 @@
 ![Electron](https://img.shields.io/badge/Electron-Desktop_App-47848F?logo=electron&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-Mobile_App-02569B?logo=flutter)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Android-blue)
-![License](https://img.shields.io/badge/License-ISC-green)
+![License](https://img.shields.io/badge/License-Educational%20Use-blue)
 
 A lightweight **multi-platform calculator application** built using a shared **web-based interface (HTML, CSS, JavaScript)**, packaged into:
 
@@ -170,4 +170,6 @@ build/app/outputs/flutter-apk/
 
 ## License
 
-This project is licensed under the **ISC License**.
+This project is intended for educational and learning purposes only.
+
+You are welcome to study the source code, explore the project structure, and use the application as a reference for learning software development with Electron, Flutter, HTML, CSS, and JavaScript.
