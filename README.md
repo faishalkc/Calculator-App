@@ -3,7 +3,7 @@
 ![Electron](https://img.shields.io/badge/Electron-Desktop_App-47848F?logo=electron&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-Mobile_App-02569B?logo=flutter)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Android-2EA44F?logo=opentofu&logoColor=white)
-![License](https://img.shields.io/badge/License-Educational%20Use-D97706?logo=turborepo&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-D97706?logo=turborepo&logoColor=white)
 
 A lightweight **multi-platform calculator application** built using a shared **web-based interface (HTML, CSS, JavaScript)**, packaged into:
 
@@ -99,7 +99,6 @@ calculator-app
 ├─ mobile/                 # Flutter (Mobile wrapper)
 │   ├─ lib/
 │   │   └─ main.dart       
-│   │
 │   └─ app/                # Web UI (HTML, CSS, JS)
 │
 └─ README.md
@@ -170,6 +169,8 @@ build/app/outputs/flutter-apk/
 
 ## License
 
-This project is intended for educational and learning purposes only.
+This project is licensed under the MIT License.
 
-You are welcome to study the source code, explore the project structure, and use the application as a reference for learning software development with Electron, Flutter, HTML, CSS, and JavaScript.
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the terms and conditions of the MIT License.
+
+See the [LICENSE](LICENSE) file for the full license text.
