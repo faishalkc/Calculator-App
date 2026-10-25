@@ -2,8 +2,8 @@
 
 ![Electron](https://img.shields.io/badge/Electron-Desktop_App-47848F?logo=electron&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-Mobile_App-02569B?logo=flutter)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Android-blue)
-![License](https://img.shields.io/badge/License-Educational%20Use-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Android-2EA44F?logo=opentofu&logoColor=white)
+![License](https://img.shields.io/badge/License-Educational%20Use-D97706?logo=turborepo&logoColor=white)
 
 A lightweight **multi-platform calculator application** built using a shared **web-based interface (HTML, CSS, JavaScript)**, packaged into:
 
