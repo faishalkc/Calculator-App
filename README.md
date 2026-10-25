@@ -59,12 +59,6 @@ The user interface is styled using **Pico.css**, a minimal and semantic CSS fram
 
 ---
 
-## Download Release
-
-You can download compiled versions from the <a href="https://github.com/faishalkc/Calculator-App/releases">**Releases**</a> page.
-
----
-
 ## Tech Stack
 
 ### Core
